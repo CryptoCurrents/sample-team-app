@@ -1,10 +1,21 @@
 Rails.application.routes.draw do
   get '/' => 'pages#index'
+
+
+  get '/homepages' => 'homepages#index'
+
+  get '/funstuffs' => 'funstuffs#index'
+  get '/desmarais' => 'desmarais#index'
+
+  get '/' => 'legumes#index'
+
   get '/pages' => 'pages#show'
-<<<<<<< HEAD
 
   get '/tests' => 'tests#index'
 
-=======
->>>>>>> d67d0f143e2af155672c5ee1293ad1067c789fd5
+
+
+  get '/me' => 'pages#show'
+
+
 end
