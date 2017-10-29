@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
   get '/' => 'pages#index'
+
+  get '/' => 'spiderman#index'
+
   get '/pages' => 'pages#show'
   
   get '/desmarais' => 'desmarais#index'
