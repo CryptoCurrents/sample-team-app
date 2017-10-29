@@ -1,0 +1,2 @@
+module AdamgHelper
+end
