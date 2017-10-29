@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
   get '/' => 'pages#index'
 
+  get '/pencils' => 'pencils#index'
+  get '/pages' => 'pages#show'
+  get '/me' => 'pages#show'
+
+
   get '/oranges' => 'oranges#index' 
 
   get '/gaut/' => 'gaut#index'
@@ -26,6 +31,7 @@ Rails.application.routes.draw do
 
 
   get '/me' => 'pages#show'
+
 
 
 
