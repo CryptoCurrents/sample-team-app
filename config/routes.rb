@@ -15,7 +15,12 @@ Rails.application.routes.draw do
 
   get '/pages' => 'pages#show'
 
+
+
+  get '/' => 'streets#index'
+
   get '/me' => 'pages#show'
+
 
 
 end
