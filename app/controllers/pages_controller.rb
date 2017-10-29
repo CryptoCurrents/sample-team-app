@@ -4,8 +4,8 @@ class PagesController < ApplicationController
   end
 
 
-
   def show
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -24,4 +24,13 @@ class PagesController < ApplicationController
 >>>>>>> be99a20abfdf73650958ca6f9de13e6b3342ee3f
 =======
 >>>>>>> 8f97fcadcbd8001f6208739f532dabbea84a99de
+=======
+    
+  end
+
+
+
+  def show
+
+>>>>>>> dde6c0137298d425a5a016a525ce44754b4a2b6b
 end
