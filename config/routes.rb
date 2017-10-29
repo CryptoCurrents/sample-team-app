@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get '/' => 'pages#index'
+
   get '/pencils' => 'pencils#index'
   get '/pages' => 'pages#show'
   get '/me' => 'pages#show'
@@ -30,5 +30,7 @@ Rails.application.routes.draw do
   get '/' => 'streets#index'
 
   get '/me' => 'pages#show'
+
+  get '/pages' => 'pages#show'
 
 end
