@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
   get '/' => 'pages#index'
+<<<<<<< HEAD
+  get '/pencils' => 'pencils#index'
+  get '/pages' => 'pages#show'
+  get '/me' => 'pages#show'
+=======
 
   get '/oranges' => 'oranges#index' 
 
@@ -23,4 +28,5 @@ Rails.application.routes.draw do
 
 
 
+>>>>>>> 88ae3327ee3a13a58711d65cec20c6b041db16e0
 end
