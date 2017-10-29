@@ -1,0 +1,2 @@
+class ChirayilController < ApplicationController
+end
